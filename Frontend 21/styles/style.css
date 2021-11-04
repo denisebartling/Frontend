@@ -1,0 +1,125 @@
+/* CSS Document */
+/* Standard CSS for the whole website to fit the webpage */
+*, *::after, *::before {
+    box-sizing:border-box;  
+    margin: 0;
+    padding: 0;
+}
+/* css for fonts*/
+body {
+    font-family: 'Noto Sans', sans-serif;}
+
+/* css to make the section display flex (container) */ 
+.container{
+    display: flex;
+    margin: 4em;
+}
+
+/* css for article in the container section */
+article{
+    margin: auto;
+    text-align: center;
+    flex: 1 1 0px;
+    width: 0;
+    position: relative;
+}
+
+/* css for the nav bar */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+/* css for the items in nav bar */
+nav li{
+    float: left;
+    display: block; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* css for image logo in nav bar*/
+nav img{
+    padding: 8px;
+}
+
+/* css for images in nav bar */
+nav li a img{
+    width: 2em;
+    padding: 0;
+}
+
+/* css for the items in nav bar */
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    left: 50%;
+}
+
+/* css to get text over slider */
+.storemanager {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 1em;
+}
+
+/* css to get text over article images) */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: red;
+    padding: 0.5em;
+}
+
+/* css to get text over article images (colombia image) */
+.colombia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+}
+
+/* css fot all the a elements */
+a {
+    color: black;
+    background-color: none;    
+}
+
+/* css for the footer */
+footer{
+    background-color: #f3f3f3;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+/* css for the ul in footer */
+footer ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+/* css for the image slider */
+.slider{
+    padding-left: 4.5em;
+    width: 80%;
+    height: auto;
+    opacity: 0,8%;
+}
