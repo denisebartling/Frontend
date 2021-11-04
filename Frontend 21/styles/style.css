@@ -72,6 +72,14 @@ nav li a {
     padding: 1em;
 }
 
+/* css for the image slider */
+.slider{
+    padding-left: 4.5em;
+    width: 80%;
+    height: auto;
+    opacity: 0,8%;
+}
+
 /* css to get text over article images) */
 .centered {
     position: absolute;
@@ -100,6 +108,24 @@ a {
     background-color: none;    
 }
 
+.shopintro {
+    padding-top: 3em;
+    padding-left: 6em;
+    width: 80%;
+    font-size: 120%;
+}
+
+.buttons{
+    margin-top:  1em;
+    margin-left: 7em;
+}
+
+button {
+    color: white;
+    background-color: red;
+    padding: 0.5em;
+}
+
 /* css for the footer */
 footer{
     background-color: #f3f3f3;
@@ -116,10 +142,4 @@ footer ul{
     margin: 0;
 }
 
-/* css for the image slider */
-.slider{
-    padding-left: 4.5em;
-    width: 80%;
-    height: auto;
-    opacity: 0,8%;
-}
+
